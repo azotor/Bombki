@@ -18,6 +18,12 @@ py -m pip install -U pygame --user
 py run.py
 ```
 
+## Jak grać?
+1) Steruj koszykiem u dołu ekranu za pomocą myszy.
+2) Łap spadające bombki do koszyka i zbieraj punkty.
+3) Pombki z każdą kolejną spadają coraz częściej.
+4) Po rozbiciu 3 bombek gra się końcy.
+
 ## Zbudowanie aplikacji
 1) Zainstaluj pakiet `PyInstaller`
 ```
@@ -29,7 +35,6 @@ py -m PyInstaller --onefile -w --noconsole --icon=Assets/Images/icon.ico  run.py
 ```
 3) Skopiuj katalog `Assets` do katalogu `dist` po skompilowaniu
 4) Uruchom aplikację plikiem wykonywalnym `run.exe` w katalogu `dist`
-
 
 ## Zrzuty ekranu
 <img src="screens/main.png" width="300" alt="Main screen">
